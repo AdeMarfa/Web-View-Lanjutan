@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        _webView1 = (WebView) findViewById(R.id.webbiew1);
+        _webView1 = (WebView) findViewById(R.id.webview1);
 
         WebViewClient webViewClient = new WebViewClient();
         _webView1.setWebViewClient(webViewClient);
